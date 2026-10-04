@@ -1,0 +1,85 @@
+
+grades:
+  - grade: 2
+    age_range: "7-8"
+    word_count_target: 300
+    difficulty_levels: [easy]
+    focus: "blends, digraphs, short vowels"
+    examples: [ship, chair, think, rain, coat]
+
+  - grade: 3
+    age_range: "8-9"
+    word_count_target: 400
+    difficulty_levels: [easy, medium]
+    focus: "long vowels, blends, silent letters"
+    examples: [knight, wreck, phone, bridge]
+
+  - grade: 4
+    age_range: "9-10"
+    word_count_target: 500
+    difficulty_levels: [easy, medium]
+    focus: "prefixes, suffixes, compound words"
+    examples: [unhappy, careful, bookmark]
+
+  - grade: 5
+    age_range: "10-11"
+    word_count_target: 600
+    difficulty_levels: [medium, hard]
+    focus: "Latin and Greek roots begin"
+    examples: [photograph, biology, telescope]
+    genres_start: false
+
+  - grade: 6
+    age_range: "11-12"
+    word_count_target: 700
+    difficulty_levels: [medium, hard]
+    focus: "academic vocabulary, genre words"
+    examples: [hypothesis, democracy, molecule]
+    genres_start: true
+
+  - grade: 7
+    age_range: "12-13"
+    word_count_target: 800
+    difficulty_levels: [hard]
+    focus: "advanced roots, etymology"
+    examples: [conscientious, perseverance]
+
+  - grade: 8
+    age_range: "13-14"
+    word_count_target: 900
+    difficulty_levels: [hard, advanced]
+    focus: "literary, scientific, historical vocab"
+    examples: [ephemeral, melancholy, protagonist]
+
+  - grade: 9
+    age_range: "14-15"
+    word_count_target: 1000
+    difficulty_levels: [advanced]
+    focus: "SAT preparation vocabulary"
+    examples: [ebullient, perfidious, sycophant]
+
+  - grade: 10
+    age_range: "15-16"
+    word_count_target: 1200
+    difficulty_levels: [advanced, expert]
+    focus: "GRE level, diplomatic, academic"
+    examples: [pusillanimous, encomium, loquacious]
+
+genres:
+  science:      "biology, physics, chemistry terms"
+  literature:   "poetry, fiction, literary criticism"
+  history:      "historical events and figures"
+  mathematics:  "geometry, algebra, statistics"
+  technology:   "computing, engineering"
+  diplomacy:    "UN, international relations"
+  law:          "legal and constitutional terms"
+  medicine:     "anatomy, pharmacology"
+  arts:         "music, visual arts, theatre"
+  philosophy:   "ethics, logic, metaphysics"
+
+difficulty:
+  easy:     "common words, regular spelling patterns"
+  medium:   "less common, some irregular patterns"
+  hard:     "uncommon words, complex patterns"
+  advanced: "rare words, classical roots"
+  expert:   "GRE/SAT level, specialist vocabulary"
